@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        body{
+            padding-left: 7vw;
+            padding-top: 5vh;
+        }
+        .container{
+            width: 85vw;
+            height: 80vh;
+            background-color:#9fcdcd;
+            border-radius: 2%;
+            position: relative;
+            
+        }
+        .header{
+            width: 70%;
+            height: 7%;
+            position: absolute;
+            top: 50px;
+            left: -30px;
+            background-color:#db6423;
+            color: aliceblue;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 60px;
+            align-items: center;
+        }
+        .first-block{
+            width: 55%;
+            height: 65%;
+            margin-left: 50px;
+        }
+        .second-block{
+            width: 40%;
+            height: 60%;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            background: url(fon.jfif) no-repeat top left 130px /cover;
+        }
+        .number-name{
+            width: 90%;
+            height: 10%;
+            background-color: #a9d2d2;
+            margin-bottom: 50px;
+        }
+        .expery-day{
+            width: 90%;
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .tel{
+            width: 25%;
+            height: 100%;
+        }
+        .password{
+            width: 25%;
+            height: 100%;
+        }
+        header{
+            width: 100%;
+            height: 15%;
+            margin-bottom: 30px;
+        }
+        h1{
+            font-size: 1.8rem;
+        }
+        h2{
+            color: rgba(0,0,0,.3);
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        input{
+            border: none;
+            
+            width: 100%;
+            height: 100%;
+            font-size: 1.5rem;
+            background-color: #a9d2d2;
+            color: rgba(0,0,0,.3);
+
+        }
+        hr{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+            <h1>
+                CREDIT CARD DETAILS
+            </h1>
+        </div>
+    </header>
+        <div class="first-block">
+            <h2>
+            Curd number
+        </h2>
+        <div class="number-name">
+            <input type="text" placeholder="    1234  4566  7654  868">
+            <hr>
+        </div>
+        <h2>Name on Card</h2>
+        <div class="number-name">
+            <input type="text" placeholder="Name Surname">
+            <hr>
+        </div>
+        <h2>Expary Day</h2>
+        <div class="expery-day">
+
+            <div class="tel">
+                <input type="number" placeholder="2">
+                <hr>
+            </div >
+            <div class="tel">
+                <input type="tel" placeholder="2017">
+                <hr>
+            </div>
+            <div class="password">
+                <input type="password" placeholder="***">
+                <hr>
+            </div>
+        </div>
+    </div>
+        <div class="second-block"></div>
+    </div>
+</body>
+</html>
